@@ -13,7 +13,7 @@ Open an Azure CLI prompt or open the CLI shell and run the following  command:
         az provider show --namespace 'Microsoft.Chaos' | grep registrationState
     ~~~
 
-**Bash or PS
+**Bash or PS**
     ~~~
        az provider show --namespace Microsoft.Chaos
        ![]({{site.baseurl}}/assets/images/Chaos-Registered.jpg/)
