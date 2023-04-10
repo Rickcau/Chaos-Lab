@@ -2,7 +2,7 @@
 title: Home
 layout: home
 ---
-![Chaos Engineering](/assets/images/ChaosEngineering.jpg){: width="200px"}
+![Chaos Engineering]({{ site.baseurl }}/assets/images/ChaosEngineering.jpg){: width="200px"}
 {: .d-flex }
 
 # About this workshop
