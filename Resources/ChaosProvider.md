@@ -24,8 +24,7 @@ Open an Azure CLI prompt or open the CLI shell and run the following  command:<b
       
          az provider show --namespace Microsoft.Chaos
          
-![]({{site.baseurl}}/assets/images/Chaos-Registered.jpg/)
-
+![]({{ site.baseurl }}/assets/images/Chaos-Registered.jpg)
 
 # Register Microsoft.Chaos Provider using Azure CLI
 Run the following command from the Azure CLI or from the Cloud Shell in the portal:
@@ -43,5 +42,5 @@ Run the following command from the Azure CLI or from the Cloud Shell in the port
 4. In the list of resource providers that appears, search for Microsoft.Chaos.
 
 5. Click on the Microsoft.Chaos provider, and click the Register button.
-[]({{site.baseurl}}/assets/images/Chaos-Register-Portal.jpg/)
+![]({{ site.baseurl }}/assets/images/Chaos-Register-Portal.jpg)
 
