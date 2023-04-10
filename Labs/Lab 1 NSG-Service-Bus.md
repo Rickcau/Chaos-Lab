@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lab 1 - NSG Service Bus Lab
+title: Lab 1 - NSG Service Bus
 permalink: /Chaos-Studio-Lab/Labs/NSG-ServiceBus
 parent: Labs 
 nav_order: 7
