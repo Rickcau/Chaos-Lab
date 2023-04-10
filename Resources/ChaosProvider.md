@@ -2,7 +2,7 @@
 layout: page
 title: Microsoft.Chaos Provider - Must be registered
 parent: Resources 
-permalink: /Chaos-Studio-Lab/Resources/Misc/
+permalink: /Chaos-Studio-Lab/Resources/ChaosProvider/
 ---
 You will not be able to do anything useful if the Microsoft.Chaos provider is not registered and this has to be done at the subscription level.
 
