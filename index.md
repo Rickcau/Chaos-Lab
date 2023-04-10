@@ -7,6 +7,8 @@ layout: home
 
 <img src="{{ site.baseurl }}/assets/images/ChaosEngineering.jpg">
 
+<img src="https://rickcau.github.io/Tester/blob/main/assets/images/ChaosEngineering.jpg">
+
 {{ site.baseurl }}
 
 # About this workshop
