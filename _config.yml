@@ -4,7 +4,7 @@ theme: just-the-docs
 
 # url: https://just-the-docs.github.io
 url: "https://rickcau.github.io"
-baseurl: "/Tester"
+baseurl: "/Chaos-Lab"
 
 include:
   - _assets
