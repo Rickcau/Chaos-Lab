@@ -1,6 +1,7 @@
 ---
-title: Home
+title: About this workshop 
 layout: home
+nav_order: 1
 ---
 ![Chaos Engineering]({{ site.baseurl }}/assets/images/ChaosEngineering.jpg ){: width="200px"}
 
