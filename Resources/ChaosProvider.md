@@ -11,7 +11,7 @@ You will not be able to do anything useful if the Microsoft.Chaos provider is no
 **You will not be able to use Chaos Studio without enabling the Microsoft.Chaos provider.  You will get errors when trying to enable targets & capabilities.**
 
 # Prequisites
-1. An User account with Owner or Contributor Role to the subscription.  (This is a requirement, as you enable providers are the subscription-level.)
+1. User account with Owner or Contributor Role to the subscription.  (This is a requirement, as you enable providers are the subscription-level.)
 
 # Check to see of the Microsoft.Chaos Provider is registered using Azure CLI
 
