@@ -30,7 +30,7 @@ Run the following command from the Azure CLI or from the Cloud Shell in the port
 
        az provider register --namespace Microsoft.Chaos
 
-# Check to see of the Microsoft.Chaos Provider is registered via the Portal
+# Portal - Check to see of the Microsoft.Chaos Provider is registered and if not register it
 1. Search for Subscriptions and open the subscription management page.
 
 2. Click on the subscription where you will be using Chaos Studio.
