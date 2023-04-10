@@ -9,22 +9,22 @@ nav_order: 6
 In this lab, I will walk you thought the process of manually creating all the resources needed to for an Experiment that allows you to trigger an NSG Fault. Depending on the fault type, the perminssions and roles needed to run the experiment will vary.
 
 **Requirements**
-- Completed all the steps outlined in the Prerequesites section to ensure Chaos Studio is properly setup. For details [click here.](/Chaos-Studio-Lab/Prequisites/)
+- Completed all the steps outlined in the Prerequesites section to ensure Chaos Studio is properly setup. For details [click here.]({{ site.baseurl }}/Chaos-Studio-Lab/Prequisites/)
 
 # Create a Resource group for our Experiment
 1. Sign in to [Azure portal](https://portal.azure.com){:target="_blank"}
 
 2. Select resource groups, then click create <br>
-![](/assets/images/Create-RG.jpg)
+![]({{ site.baseurl }}/assets/images/Create-RG.jpg)
 For the Resouce Group name, I used **rg-NSG-Chaos-Lab1**, I'd suggest you do the same as I will be using this resouce group in other exercises.
 
 3. Select subscription and enter values and finish creating the Resource Group and use **rg-NSG-Chaos-Lab1** for the Resource Group name.
-![](/assets/images/RG-Finish-Creation.jpg)
+![]({{ site.baseurl }}/assets/images/RG-Finish-Creation.jpg)
 
 # Create a new Network Security Group in the Resouce Group you just created
   **Note** make sure you are **NOT** creating a **(Classic) Network Security Group**
 1. Navigate to the Azure Portal and search for **Network Security Groups** and click on **Create* and finish the creation using the following properties:
-![](/assets/images/NSG-Create.jpg)
+![]({{ site.baseurl }}/assets/images/NSG-Create.jpg)
 
    **Note** how I used **nsg-Chaos-Lab1** for the NSG name and I selected the **rg-NSG-Chaos-Lab1** resource group we created in the previous step.
 
@@ -32,34 +32,34 @@ For the Resouce Group name, I used **rg-NSG-Chaos-Lab1**, I'd suggest you do the
 1. Navigate the the Azure Portal and search for **Chaos Studio** and open it
 
 2. Click on **Targets** and you will see a list of resouces that we can enable.
-![](/assets/images/Chaos-Targets.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-Targets.jpg)
 
     **Note** that for **nsg-Chaos-Lab1** it displays **Not Enabled** in the **Service Direct** column and **Manage Actions** is disabled?  This is **very** important to make note of, if the proper targets/capabilities are not enabled you are going to have issues.  Notice for **nsg-Chaos-Lab1** it displays **Enabled** in the **Service Direct** column and **Manage Actions** is enabled?  Now, we need to do this for the **nsg-Chaos-Lab1**.
 
 3. Click on **nsg-Chaos-Lab1** and make sure it is selected and it is checked, then click on **Enable service-direct targets**, then click on **Review+Enable** then click on **Enabled**
-![](/assets/images/Chaos-Enable-ServiceDirect.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-Enable-ServiceDirect.jpg)
 
 4. Now, refresh the page and **Manage Actions** will be enabled, click on it.  You will note that two **Capabilities** are selected, now click on **Save**
-![](/assets/images/Chaos-Capability.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-Capability.jpg)
 
    **Note** now the the NSG target and capabilities are enabled, we can create the **Experiment**.
 
 # Now, lets create an Experiment that introduces an NSG Fault for Service Bus
 1. Click on **Experiments**, then click on **Create** and populate the **Project Details** with the following values:
-![](/assets/images/Chaos-Exp-Create.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-Exp-Create.jpg)
 
 2. Click on **Review+Create**, then click on **Experiment Designer**, click on **Add Action -> Add Fault** and select **NSG Security Rule (version 1.1)** from the list of faults and set the **destinationAddresses** to **ServiceBus**.
 ![](/assets/images/Chaos-Exp-Add-Fault.jpg)
 
 3. Now, click on **Next: Target resources >** and check **nsg-Chaos-Lab1** and click on **Add**. 
-![](/assets/images/Chaos-Exp-Add-Fault2.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-Exp-Add-Fault2.jpg)
 
 4. Let's finish up by clicking on **Review + Create**, then **Create**.  Now, you will see your Experiment in the list of Experiments in **Chaos Studio**
-![](/assets/images/Chaos-Exp-Created.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-Exp-Created.jpg)
 
 # What happens if you run the experiement now?
 Did the experiement fail?  Why did it fail?  **Hint:** The Experiment uses a **System Assigned Identity**.  Take a look at the error details for the failure.  Also, take a look at the role assignments for the experiment.  Is there anything missing?  Have you looked at the role assignments for the NSG?
-![](/assets/images/Chaos-Exp-Failed.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-Exp-Failed.jpg)
 
 What might you do to fix this? **Hint:** In order to add a rule to an NSG what role assignment is needed?  Do some research and try to figure this out without looking at the answer below.  If you want the fix for the issue, click on the **Answer** for details.
 <details>
@@ -68,14 +68,14 @@ You need to grant the experiment Network Contributor permissions to the NSG.  Na
 </details>
 
 Here is what the NSG should look like if you properly added the role assignment:
-![](/assets/images/Chaos-Exp-NetworkContrib.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-Exp-NetworkContrib.jpg)
 
 # Run the Experiment now that we have added the proper Role Assignment
 1. Navigate to the **exp-NSG-Chaos-Lab1** experiment and click **Start**.  Keep an eye on the **Status*, if you properly add the role assignment, the experiment should change to **Running* status.
-![](/assets/images/Chaos-Exp-Running.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-Exp-Running.jpg)
 
 2. Now, navigate to the **nsg-Chaos-Lab1**, you will see that a new rule called **DenyAllOutbound** has been added and it's denying traffic to ServiceBus!
-![](/assets/images/Chaos-NSG-Rule-Enabled.jpg)
+![]({{ site.baseurl }}/assets/images/Chaos-NSG-Rule-Enabled.jpg)
 
 # Congratulations!
 You have just completed your first Chaos Studio Experiement that leverages an NSG Fault that Denies Service Bus Traffic
