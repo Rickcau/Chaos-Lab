@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Microsoft.Chaos Provider - Must be registered
+title: Register Microsoft.Chaos
 parent: Resources 
 permalink: /Chaos-Studio-Lab/Resources/ChaosProvider/
 ---
