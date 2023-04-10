@@ -12,7 +12,7 @@ You can download or read the **Chaos Engineering - Guiding Principles** document
 
 You can learn more about the **Azure Chaos Studio** product by [clicking here](https://azure.microsoft.com/en-us/products/chaos-studio/){:target="_blank"}.
 
-If you like to jump right into the labs, [click here]({{ site.baseurl }}/Chaos-Studio-Lab/Labs/).
+If you like to jump right into the labs, [click here]({{ site.baseurl }}/Chaos-Studio-Lab/Labs/).  Please review the prequesites before starting the labs.
 
 
 **Disclaimer:** This website is under constant modification.  If you find something isn't working properly, I could be making some changes on the back-end.  At the time this site was published 4/8/2023, Chaos Studio is in *preview* so things could change.
