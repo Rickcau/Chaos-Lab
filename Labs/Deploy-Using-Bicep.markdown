@@ -3,7 +3,7 @@ layout: default
 title: Lab 2 - Deploy Using Bicep
 permalink: /Chaos-Studio-Lab/Labs/Deploy Using Bicep
 parent: Labs 
-nav_order: 6
+nav_order: 2
 ---
 # Deploy an Experiment using Bicep
 In this lab we will quickly deploy the same type of NSG Experment we did in the [NSG Lab]({{ site.baseurl }}/Labs/NSG-Service-Bus-Lab2.markdown) using one Azure command.  After we deploy the experiement we will take a look at the Bicep files and dive into those.  
