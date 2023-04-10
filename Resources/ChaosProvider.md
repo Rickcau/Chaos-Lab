@@ -10,6 +10,8 @@ You will not be able to do anything useful if the Microsoft.Chaos provider is no
 # Important Note
 **You will not be able to use Chaos Studio without registering the Microsoft.Chaos provider.  You will get errors when trying to enable targets & capabilities.  You must have a User account with Owner or Contributor Role register the Microsoft.Chaos provider.**
 
+[Click here](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-quickstart-azure-portal#register-the-chaos-studio-resource-provider) for official documentation on registering the Microsoft.Chaos provider.
+
 # Check to see of the Microsoft.Chaos Provider is registered using Azure CLI
 
 **BASH**<br>
