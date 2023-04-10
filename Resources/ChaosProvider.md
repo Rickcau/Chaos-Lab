@@ -7,21 +7,28 @@ permalink: /Chaos-Studio-Lab/Resources/ChaosProvider/
 
 You will not be able to do anything useful if the Microsoft.Chaos provider is not registered and this has to be done at the subscription level.
 
+# Prequisites
+1. An User account with Owner or Contributor Role to the subscription.  (This is a requirement, as you enable providers are the subscription-level)
+
+# Important Note
+**You will not be able to use Chaos Studio without enabling the Microsoft.Chaos provider.  You will get errors when trying to enable targets & capabilities.
+
 # Check to see of the Microsoft.Chaos Provider is registered using Azure CLI
 
 **BASH**<br>
 Open an Azure CLI prompt or open the CLI shell and run the following  command:<br>
 
-     ~~~
         az provider show --namespace 'Microsoft.Chaos' | grep registrationState
-     ~~~
 
 **Bash or PS**
       
-      ~~~
          az provider show --namespace Microsoft.Chaos
          ![]({{site.baseurl}}/assets/images/Chaos-Registered.jpg/)
-      ~~~
+
+# Register Microsoft.Chaos Provider using Azure CLI
+Run the following command from the Azure CLI or from the Cloud Shell in the portal:
+
+       az provider register --namespace Microsoft.Chaos
 
 # Check to see of the Microsoft.Chaos Provider is registered via the Portal
 
@@ -35,3 +42,4 @@ Open an Azure CLI prompt or open the CLI shell and run the following  command:<b
 
 5. Click on the Microsoft.Chaos provider, and click the Register button.
 []({{site.baseurl}}/assets/images/Chaos-Register-Portal.jpg/)
+
