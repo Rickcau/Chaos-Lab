@@ -12,16 +12,16 @@ You will not be able to do anything useful if the Microsoft.Chaos provider is no
 **BASH**<br>
 Open an Azure CLI prompt or open the CLI shell and run the following  command:<br>
 
-     <pre>
+     ~~~
         az provider show --namespace 'Microsoft.Chaos' | grep registrationState
-     </pre>
+     ~~~
 
 **Bash or PS**
       
-      <pre>
-       az provider show --namespace Microsoft.Chaos
-       ![]({{site.baseurl}}/assets/images/Chaos-Registered.jpg/)
-      </pre>
+      ~~~
+         az provider show --namespace Microsoft.Chaos
+         ![]({{site.baseurl}}/assets/images/Chaos-Registered.jpg/)
+      ~~~
 
 # Check to see of the Microsoft.Chaos Provider is registered via the Portal
 
