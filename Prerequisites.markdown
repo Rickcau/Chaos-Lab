@@ -23,4 +23,6 @@ Please make sure that you have completed the following requirements in order to 
 ## Note
 There may be additional requirements depending on your specific use case, such as having **"Network Contributor"** role for NSG experiments or **"DB Owner"** for Cosmos DB Faults.  For the experiments outlined in the labs I will callout the requirements for each scenario. 
 
-[Back to top](#top)
+----
+
+
