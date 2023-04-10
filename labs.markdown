@@ -6,8 +6,5 @@ has_children: true
 nav_order: 6
 ---
 
-# Testing
-Please make sure that you have completed the following requirements in order to complete the hands-on lab:
-
-
-[Back to top](#top)
+# Labs
+This section of the site is where you can find all the hands-on labs.  Please click on one of the labs below to get started, or select a lab from the drop down menu on the left.
