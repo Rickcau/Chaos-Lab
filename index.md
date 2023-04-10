@@ -5,6 +5,8 @@ layout: home
 ![Chaos Engineering]({{ site.baseurl }}/assets/images/ChaosEngineering.jpg){: width="200px"}
 {: .d-flex }
 
+{{ site.baseurl }}
+
 # About this workshop
 The hands-on-labs found on this site will guide you through the process of creating experiments with **Azure Chaos Studio**. I will also go over the fundimental concepts of Chaos Engineering, providing known **good practices** as well as a providing you with a document that provides **guiding principles**.  The goal is bring customers and partners to a 200-level understanding of how to leverage Azure Chaos Studio for Chaos Engineering. This is meant to be a hands on lab experience, all instructions are provided, but a basic level of understanding of Azure and RBAC are needed.
 
