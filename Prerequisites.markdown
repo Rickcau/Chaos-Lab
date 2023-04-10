@@ -14,7 +14,7 @@ Please make sure that you have completed the following requirements in order to 
 - You need to have "Ower" or "Contributor" role or have been granted access to the Microsoft.Chaos via a custom role.  For more information on Chaos Studio permissions [click here](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-permissions-security){:target="_blank"}
 - An existing resource group or create a new one to host your Chaos Studio instance
 - Register the Chaos Studio resource provider.  For details on how to register the provider [click here](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-quickstart-azure-portal#register-the-chaos-studio-resource-provider){:target="_blank"}
-- Enable Chaos Studio in your subscription.  For steps on how to do this [click here](/Chaos-Studio-Lab/AzureChaosStudio-Creation/)
+- Enable Chaos Studio in your subscription.  For steps on how to do this [click here]({{ site.baseurl }}/Chaos-Studio-Lab/AzureChaosStudio-Creation/)
 
 ## Recommendations
 - Use either your own or Azure’s common naming convention for the various resources you will be using.  For more details on Azure Best Practices for Resource Naming, [click here](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming){:target="_blank"}
