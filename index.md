@@ -9,6 +9,9 @@ The hands-on-labs found on this site will guide you through the process of creat
 
 You can download or read the **Chaos Engineering - Guiding Principles** document by [clicking here]({{ site.baseurl }}/assets/docs/Chaos%20Engineering%20-%20Guiding%20Principles%20-%20Rickcau.pdf/){:target="_blank"}.
 
+
+[Tester]({{ site.baseurl }}/assets/docs/Chaos%20Engineering%20-%20Guiding%20Principles%20-%20Rickcau.pdf)
+
 You can learn more about the **Azure Chaos Studio** product by [clicking here](https://azure.microsoft.com/en-us/products/chaos-studio/){:target="_blank"}.
 
 If you like to jump right into the labs, [click here]({{ site.baseurl }}/Chaos-Studio-Lab/Labs/).
