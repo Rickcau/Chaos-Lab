@@ -7,7 +7,7 @@ layout: home
 # About this workshop
 The hands-on-labs found on this site will guide you through the process of creating experiments with **Azure Chaos Studio**. I will also go over the fundimental concepts of Chaos Engineering, providing known **good practices** as well as a providing you with a document that provides **guiding principles**.  The goal is bring customers and partners to a 200-level understanding of how to leverage Azure Chaos Studio for Chaos Engineering. This is meant to be a hands on lab experience, all instructions are provided, but a basic level of understanding of Azure and RBAC are needed.
 
-You can download or read the **Chaos Engineering - Guiding Principles** document by [clicking here]({{ site.baseurl }}/assets/docs/Chaos%20Engineering%20-%20Guiding%20Principles%20-%20Rickcau.pdf/){:target="_blank"}.
+You can download or read the **Chaos Engineering - Guiding Principles** document by [clicking here]({{ site.baseurl }}/assets/docs/Chaos%20Engineering%20-%20Guiding%20Principles%20-%20Rickcau.pdf){:target="_blank"}.
 
 
 [Tester]({{ site.baseurl }}/assets/docs/Chaos%20Engineering%20-%20Guiding%20Principles%20-%20Rickcau.pdf)
