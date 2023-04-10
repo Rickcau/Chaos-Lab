@@ -2,8 +2,10 @@
 title: Home
 layout: home
 ---
-![Chaos Engineering]( {{ site.url }}{{ site.baseurl }}/assets/images/ChaosEngineering.jpg ){: width="200px"}
+![Chaos Engineering](/assets/images/ChaosEngineering.jpg ){: width="200px"}
 {: .d-flex }
+
+<img src="{{ site.baseurl }}/assets/images/ChaosEngineering.jpg">
 
 {{ site.baseurl }}
 
