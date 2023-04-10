@@ -3,7 +3,7 @@ layout: default
 title: Lab 1 - NSG Service Bus Lab
 permalink: /Chaos-Studio-Lab/Labs/NSG-ServiceBus
 parent: Labs 
-nav_order: 1
+nav_order: 7
 ---
 # Create an NSG based Experiment Manually
 In this lab, I will walk you thought the process of manually creating all the resources needed to for an Experiment that allows you to trigger an NSG Fault. Depending on the fault type, the perminssions and roles needed to run the experiment will vary.
