@@ -23,6 +23,7 @@ Open an Azure CLI prompt or open the CLI shell and run the following  command:<b
 **Bash or PS**
       
         az provider show --namespace Microsoft.Chaos
+        
  ![]({{ site.baseurl }}/assets/images/Chaos-Registered.jpg)
 
 # Register Microsoft.Chaos Provider using Azure CLI
