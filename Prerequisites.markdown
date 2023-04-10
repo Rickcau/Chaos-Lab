@@ -13,7 +13,7 @@ Please make sure that you have completed the following requirements in order to 
 - Access to an Active Azure Subscription
 - You need to have "Ower" or "Contributor" role or have been granted access to the Microsoft.Chaos via a custom role.  For more information on Chaos Studio permissions [click here](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-permissions-security){:target="_blank"}
 - An existing resource group or create a new one to host your Chaos Studio instance
-- Register the Chaos Studio resource provider.  For details on how to register the provider [click here](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-quickstart-azure-portal#register-the-chaos-studio-resource-provider){:target="_blank"}
+- Register the Chaos Studio resource provider.  For details on how to register the provider [click here]({{ site.baseurl }}/Chaos-Studio-Lab/Resources/ChaosProvider/){:target="_blank"}
 - Enable Chaos Studio in your subscription.  For steps on how to do this [click here]({{ site.baseurl }}/Chaos-Studio-Lab/Resources/AzureChaosStudio-Creation/)
 
 ## Recommendations
