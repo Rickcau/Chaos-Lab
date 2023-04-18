@@ -10,12 +10,9 @@ For Agent Based faults the Chaos Agent Extension needs to be installed on the VM
 
 ## Useful Azure CLI commands
 
-    ~~~
        az vm extension list --resource-group <RESOURCE_GROUP_NAME> --vm-name <VM_NAME>
-    ~~~
 The above command will an empty result if no extenstions are installed, if extenstions are installed, results similiar to the following are returned:
     
-    ~~~
        [
         {
            "autoUpgradeMinorVersion": true,
@@ -42,6 +39,5 @@ The above command will an empty result if no extenstions are installed, if exten
            "typePropertiesType": "ChaosWindowsAgent"
          }
         ]
-    ~~~
     
     
