@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 3 - CPU Pressure
-permalink: /Chaos-Studio-Lab/Labs/Agent-Based/CPU-Pressure
+permalink: /Chaos-Studio-Lab/Labs/CPU Pressure
 parent: Labs 
 nav_order: 9
 ---
