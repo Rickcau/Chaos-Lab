@@ -35,8 +35,7 @@ For the Resouce Group name, I used **rg-CPU-Chaos-Lab3**, use whatever name you 
      OS disk type = Standard SSD (locally-redundant storage)
    ~~~
 
-
-If you are new to **VS Code** and **GitHub** and cloning repos, [read this guide](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette){:target="_blank"} on the Microsoft Learn website to get started.
+4. Finsh creating the VM.
 
 ## Step 2 - Create a Managed Identity 
 1. While in the Azure Portal, enter **Managed Identities** into the **Search Bar** then click on **Manage Identities**
