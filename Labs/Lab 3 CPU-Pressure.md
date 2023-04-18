@@ -24,7 +24,7 @@ For the Resouce Group name, I used **rg-CPU-Chaos-Lab3**, use whatever name you 
 ## Step 2 - Create the VM
 1. While in the Azure Portal navigate to *Home > Create a resouce* then *Create a VM*
 
-2. For the VM properties, the the *resource group* to the one you created in Step 1.  
+2. Use the the *resource group* you created in Step 1.  
 
 3. For the VM name enter "vm-cpu-exp" and keep everything else as simple as possible for the VM to save costs.  Here are my suggestions, but you can use whatever you like:
    ~~~
@@ -36,40 +36,27 @@ For the Resouce Group name, I used **rg-CPU-Chaos-Lab3**, use whatever name you 
    ~~~
 
 
-2. Select resource groups, then click create <br>
-![]({{ site.baseurl }}/assets/images/Create-RG.jpg)
-For the Resouce Group name, I used **rg-CPU-Chaos-Lab3**, use whatever name you prefer.
-
-3. Select subscription and enter values and finish creating the Resource Group and use **rg-NSG-Chaos-Lab1** for the Resource Group name.
-![]({{ site.baseurl }}/assets/images/RG-Finish-Creation.jpg)
-
-
-
-1. 
-1. Download and install VS Code by [clicking here](https://code.visualstudio.com/){:target="_blank"} 
-
-2. Download and install Git by [clicking here](https://git-scm.com/download/win){:target="_blank"}
-
-3. Install the Azure CLI Tool extension in VS Code.
-
-4. Install the Bicep extension in VS Code
-
-5. Navigate to my [Azure-Chaos-Studio](https://github.com/Rickcau/Azure-Chaos-Studio){:target="_blank"} repo and copy the URL so you can clone the repo in VS Code.  (Techncially, you can just copy the Bicep files to a local directory.)
-
-6. Clone the repo in VS Code so you have a local copy on your computer.
-
 If you are new to **VS Code** and **GitHub** and cloning repos, [read this guide](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette){:target="_blank"} on the Microsoft Learn website to get started.
 
 ## Step 2 - Create a Managed Identity 
-1. Open the local repo folder for **Azure-Chaos-Studio** from VS Code.
-![]({{ site.baseurl }}/assets/images/Open-Repro.jpg)
+1. While in the Azure Portal, enter **Managed Identities** into the **Search Bar** then click on **Manage Identities**
 
-2. Open a terminal window in VS Code and change into the following directory on your computer:
+2. Now, click on **Create** and populate the properties with the following details:
    ~~~
-     PS C:\Users\<YOUR USER ID>\<CLONE_DIRECTORY>Azure-Chaos-Studio\Experiments\NSG Faults\BICEPcls>
+     Subscription = <Select your Subscription>
+     Resource Group = <Select Resource Group created in Step 1>
+     Region = <Select your Region, I am using East US>
+     Name = vm-chaos-manaeddid
+     Size = Standard_B1ls - 1 vcpu, 0.5 GiB memory
    ~~~
+   
+   Now, finish up by clicking on *Review + create*
+   
+ **Important Note** - The managed identity is required as it allows the experiement to communicate with the Chaos Agent on the VM.
+
 ## Step 3 - Enable the Target & Capabilities
-
+Now that we have the VM and Managed Identity created we can enable the target and capabilities for the VM.
+1. Open Chaos Studio and and click on *Targets*
 
 ## Step 4 - Create the Experiement
 
