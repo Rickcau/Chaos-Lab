@@ -11,7 +11,7 @@ For Agent Based faults the Chaos Agent Extension needs to be installed on the VM
 ## Useful Azure CLI commands
 
        az vm extension list --resource-group <RESOURCE_GROUP_NAME> --vm-name <VM_NAME>
-The above command will an empty result if no extenstions are installed, if extenstions are installed, results similiar to the following are returned:
+The above command will return an empty result if no extenstions are installed, if extenstions are installed, results similiar to the following are returned:
     
        [
         {
@@ -40,4 +40,6 @@ The above command will an empty result if no extenstions are installed, if exten
          }
         ]
     
-    
+If you like to return only the details for the Chaos Agent Extension, you can run the following command:
+       az vm extension show -g <RESOURCE_GROUP_NAME> --vm-name <VM_NAME> -n ChaosAgent
+      
