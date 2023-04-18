@@ -1,6 +1,12 @@
+---
+layout: page
+title: Chaos Studio Agent
+parent: Resources 
+permalink: /Chaos-Studio-Lab/Resources/ChaosAgent/
+---
+
 # Chaos Agent
 For Agent Based faults the Chaos Agent Extension needs to be installed on the VM.  
-
 
 ## Useful Azure CLI commands
 
