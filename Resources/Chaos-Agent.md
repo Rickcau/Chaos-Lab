@@ -41,5 +41,6 @@ The above command will return an empty result if no extenstions are installed, i
         ]
     
 If you like to return only the details for the Chaos Agent Extension, you can run the following command:
+
        az vm extension show -g <RESOURCE_GROUP_NAME> --vm-name <VM_NAME> -n ChaosAgent
       
