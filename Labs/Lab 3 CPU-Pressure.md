@@ -10,7 +10,41 @@ Faults fall into two categories; service-direct or agent-based.  Agent-based fau
 
 For more details on the Chaos Agent [click here](/esources/Chaos-Agent.md){:target=_blank}}
 
-## Step 1 - Create the VM
+## Step 1 - Create a Resource Group
+1. Sign in to [Azure portal](https://portal.azure.com){:target="_blank"}
+
+2. Select resource groups, then click create <br>
+![]({{ site.baseurl }}/assets/images/Create-RG.jpg)
+For the Resouce Group name, I used **rg-CPU-Chaos-Lab3**, use whatever name you prefer.
+
+3. Select subscription and enter values and finish creating the Resource Group and use **rg-NSG-Chaos-Lab1** for the Resource Group name.
+![]({{ site.baseurl }}/assets/images/RG-Finish-Creation.jpg)
+
+
+## Step 2 - Create the VM
+1. While in the Azure Portal navigate to *Home > Create a resouce* then *Create a VM*
+
+2. For the VM properties, the the *resource group* to the one you created in Step 1.  
+
+3. For the VM name enter "vm-cpu-exp" and keep everything else as simple as possible for the VM to save costs.  Here are my suggestions, but you can use whatever you like:
+   ~~~
+     Availability options = No infrastructure reduancy required
+     Security type = Standard
+     Image = Windows 10 Pro
+     Size = Standard_B1ls - 1 vcpu, 0.5 GiB memory
+     OS disk type = Standard SSD (locally-redundant storage)
+   ~~~
+
+
+2. Select resource groups, then click create <br>
+![]({{ site.baseurl }}/assets/images/Create-RG.jpg)
+For the Resouce Group name, I used **rg-CPU-Chaos-Lab3**, use whatever name you prefer.
+
+3. Select subscription and enter values and finish creating the Resource Group and use **rg-NSG-Chaos-Lab1** for the Resource Group name.
+![]({{ site.baseurl }}/assets/images/RG-Finish-Creation.jpg)
+
+
+
 1. 
 1. Download and install VS Code by [clicking here](https://code.visualstudio.com/){:target="_blank"} 
 
