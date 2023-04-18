@@ -6,12 +6,13 @@ permalink: /Chaos-Studio-Lab/Resources/ChaosAgent/
 ---
 
 # Chaos Agent
-For Agent Based faults the Chaos Agent Extension needs to be installed on the VM.  For details on how to install the Chaos Agent Extension, you can follow the steps outline in the ** *Enable chaos target, capabilities, and agent* ** section of this [document](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-tutorial-agent-based-portal){target}=_blank.
+For Agent Based faults the Chaos Agent Extension needs to be installed on the VM.  For details on how to install the Chaos Agent Extension, you can follow the steps outline in the ** *Enable chaos target, capabilities, and agent* ** section of this [document](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-tutorial-agent-based-portal){:target="_blank"}.
 
 ## Useful Azure CLI commands
 
        az vm extension list --resource-group <RESOURCE_GROUP_NAME> --vm-name <VM_NAME>
-The above command will return an empty result if no extenstions are installed, if extenstions are installed, results similiar to the following are returned:
+
+The above command will return an empty result if no extenstions are installed, if extenstions are installed, results similiar to the following are returned:<br>
     
        [
         {
