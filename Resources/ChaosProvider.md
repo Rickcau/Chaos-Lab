@@ -4,11 +4,8 @@ title: Register Microsoft.Chaos
 parent: Resources 
 permalink: /Chaos-Studio-Lab/Resources/ChaosProvider/
 ---
-
-You will not be able to do anything useful if the Microsoft.Chaos provider is not registered and this has to be done at the subscription level.
-
-# Important Note
-**You will not be able to use Chaos Studio without registering the Microsoft.Chaos provider.  You will get errors when trying to enable targets & capabilities.  You must have a User account with Owner or Contributor Role register the Microsoft.Chaos provider.**
+# Register Microsoft.Chaos Studio Provider
+***You will not be able to use Chaos Studio without registering the Microsoft.Chaos provider.  You will get errors when trying to enable targets & capabilities.  You must have a User account with Owner or Contributor Role in order to register the Microsoft.Chaos provider.***
 
 [Click here](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-quickstart-azure-portal#register-the-chaos-studio-resource-provider){:target="_blank"}  for official documentation on registering the Microsoft.Chaos provider.
 
