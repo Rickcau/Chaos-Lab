@@ -5,6 +5,8 @@ permalink: /Chaos-Studio-Lab/Labs/CPU Pressure
 parent: Labs 
 nav_order: 9
 ---
+# !!! This Lab is NOT complete yet as of 4/19/23, it's being worked on as time permits, stay tuned !!!
+
 # Overview
 Faults fall into two categories; service-direct or agent-based.  Agent-based faults requires the installation of the Chaos Agent, unlike a service-direct fault.  A CPU Pressure fault is an **agent-based** fault, so we will need to install the Chaos Agent Extenstion on the VM. 
 
