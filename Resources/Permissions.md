@@ -11,7 +11,7 @@ For those of you that want granular control over the permissions for Chaos you w
 ## ARM Operations and roles
 
 | Operation | Description |
-| --- | --- |
+| ----- | ----- |
 | Microsoft.Chaos/targets/[Read,Write,Delete] | Get, create, update, or delete a target. | 
 | Microsoft.Chaos/targets/capabilities/[Read,Write,Delete] | Get, create, update, or delete a capability. |
 | Microsoft.Chaos/locations/targetTypes/Read | Get all target types. |
