@@ -9,6 +9,7 @@ permalink: /Chaos-Studio-Lab/Resources/Permissions/
 For those of you that want granular control over the permissions for Chaos you will need to create a custom role.  We will outline the ARM operations, roles and walk through some examples, as well as point you to official Microsoft Documentation.  There are other roles/permissions that you will need based on what is that your experiment is doing i.e. with working with NSGs or VMs etc.
 
 ## ARM Operations and roles
+
 | Operation | Description |
 | --- | --- |
 | Microsoft.Chaos/targets/[Read,Write,Delete] | Get, create, update, or delete a target. | 
