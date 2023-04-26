@@ -42,8 +42,8 @@ The Custom Role we are creating only allows permissions to **Read, Start and Sto
 2. Next, click on **Permissions**, then click on the **Add Permissions** button and add the permissions as outlined in the example below.<br>
 ![]({{ site.baseurl }}/assets/images/Custom-Role-Chaos-Add-Perms-2.jpg)
 
-3. Now, you should be on the **Review + create** tab there should be an **Add** button at the bottom of the page, as outlined in the example below, click add.<br>
+3. Now, you should be on the **Review + create** tab and there should be an **Add** button at the bottom of the page, as outlined in the example below, click add.<br>
 ![]({{ site.baseurl }}/assets/images/Custom-Role-Chaos-Add-Perms-3.jpg)
 
-**Important Note**
+**Important Note**<br>
 Later I went back and added the Microsoft.Chaos/experiemtnts/Read action to the role and the image above does not reflect that, so make sure you add this permission as well.
