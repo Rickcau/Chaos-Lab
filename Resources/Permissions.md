@@ -35,14 +35,14 @@ If you create such a role, the user would not be able to create experiments or p
 ## Create a Custom Role
 The Custom Role we are creating only allows permissions to **Read, Start and Stop/Cancel** experiments. 
 
-1. Log in to Azure Portal and navigate to the subscription, and click on **Access control (IAM)**, then click on **Add > add custom role**, example below.
+1. Log in to Azure Portal and navigate to the subscription, and click on **Access control (IAM)**, then click on **Add > add custom role**, example below.<br>
 ![](/assets/images/Custom-Role-Chaos-1.jpg)
 
-2. Next, click on **Permissions**, then click on the **Add Permissions** button and add the permissions as outlined in the example below.
+2. Next, click on **Permissions**, then click on the **Add Permissions** button and add the permissions as outlined in the example below.<br>
 ![](/assets/images/Custom-Role-Chaos-Add-Perms-2.jpg)
 
-3. Now, you should be on the **Review + create** tab there should be an **Add** button at the bottom of the page, as outlined in the example below, click add.
-![](/assets/images/Custom-Role-Chaos-Add-Perms-3.jpg
+3. Now, you should be on the **Review + create** tab there should be an **Add** button at the bottom of the page, as outlined in the example below, click add.<br>
+![](/assets/images/Custom-Role-Chaos-Add-Perms-3.jpg)
 
 **Important Note**
 Later I went back and added the Microsoft.Chaos/experiemtnts/Read action to the role and the image above does not reflect that, so make sure you add this permission as well.
