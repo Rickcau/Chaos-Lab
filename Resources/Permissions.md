@@ -46,4 +46,20 @@ The Custom Role we are creating only allows permissions to **Read, Start and Sto
 ![]({{ site.baseurl }}/assets/images/Custom-Role-Chaos-Add-Perms-3.jpg)
 
 **Important Note**<br>
-Later I went back and added the Microsoft.Chaos/experiemtnts/Read action to the role and the image above does not reflect that, so make sure you add this permission as well.
+Later I went back and added the Microsoft.Chaos/experiemtnts/Read action to the role and the image above does not reflect that, so make sure you add this permission as well.  Also, it can take 5-20mins in some cases for the permissions to propagate across the system.  So, if you try to view experiments right away, you may not be able to, give it 20mins and then try again.
+
+## Add the Custom Role to a User
+Let's add the role to a user now so they have the proper permissions to view, start and stop experiments.
+
+1. Navigate to the subscription and click on *Access Control (IAM)*, then click on Roles and search for the custom role and click on View as outlined in the example below.
+![](({{ site.baseurl }}/assets/images/Chaos-Custom-Role-Selected.jpg)
+
+2. Upon clicking on View, you will be presented with the following screen.
+![](({{ site.baseurl }}/assets/images/Chaos-Custom-Role-View.jpg)
+
+3. Now, click on Assignments, then + Add Assignments and add the users per the example below.
+![](({{ site.baseurl }}/assets/images/Chaos-Custom-Role-Select-Member.jpg)
+ 
+
+
+
