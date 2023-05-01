@@ -26,8 +26,10 @@ For example you might only want to allow a select group of individuals to Start 
 
    ~~~
       Microsoft.Chaos/experiments/start
-      Microsoft.Chaos/experiments/cancel
+      Microsoft.Chaos/experiments/cancel/action
       Microsoft.Chaos/experiments/Read
+      Microsoft.Chaos/experiments/statuses/read
+      Microsoft.Chaos/experiments/executionDetails/read
    ~~~
    
 If you create such a role, the user would not be able to create experiments or perform any of the other operations if this is the only role assigned!  The user will also need the **Reader role**, otherwise the user will not be able to see the experiements.     
