@@ -53,13 +53,13 @@ Later I went back and added the Microsoft.Chaos/experiemtnts/Read action to the 
 ## Add the Custom Role to a User
 Let's add the role to a user now so they have the proper permissions to view, start and stop experiments.
 
-1. Navigate to the subscription and click on *Access Control (IAM)*, then click on Roles and search for the custom role and click on View as outlined in the example below.
+1. Navigate to the subscription and click on *Access Control (IAM)*, then click on Roles and search for the custom role and click on View as outlined in the example below.<br>
 ![](({{ site.baseurl }}/assets/images/Chaos-Custom-Role-Selected.jpg)
 
-2. Upon clicking on View, you will be presented with the following screen.
+2. Upon clicking on View, you will be presented with the following screen.<br>
 ![](({{ site.baseurl }}/assets/images/Chaos-Custom-Role-View.jpg)
 
-3. Now, click on Assignments, then + Add Assignments and add the users per the example below.
+3. Now, click on Assignments, then + Add Assignments and add the users per the example below.<br>
 ![](({{ site.baseurl }}/assets/images/Chaos-Custom-Role-Select-Member.jpg)
  
 
