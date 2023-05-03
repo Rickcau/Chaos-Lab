@@ -15,7 +15,7 @@ This issue has occured in the past that the have been fixes deployed for this, b
 
 2. Use the Resource Graph Explorer to view the Targets and Capabilities.  
 
-[Click here](https://portal.azure.com/#view/HubsExtension/ArgQueryBlade){.target:=_blank} to open the Resource Graph Explorer in Azure Portal.
+[Click here](https://portal.azure.com/#view/HubsExtension/ArgQueryBlade){:target="_blank"} to open the Resource Graph Explorer in Azure Portal.
 
        az graph query -q "chaosresources | where type == 'microsoft.chaos/targets' | where subscriptionId == 'YourSubscriptionID'" 
 
