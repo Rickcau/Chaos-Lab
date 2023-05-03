@@ -22,6 +22,10 @@ permalink: /Chaos-Studio-Lab/Resources/ProTips
 
 2. Is the Chaos.Studio Provider enabled or did someone disable it?<br>
    [Click here]({{ site.baseurl }}/ChaosProvider.md){:target="_blank"} to learn more about how to check the Chaos.Studio Provider
+   
+## Getting Access Denied errors when running Experiments?
+1. Double check the permissions for the Experiment.
+In Lab 1, I demonstrate this exact scenario and how the Experiment will fail with an “Access Denied” error.  The experiment needed *Network Contributor* permissions to create the fault.  Use [Lab 1]({{ site.baseurl }}/ChaosProvider.md) as an example to better understand what Roles/Permissions your Experiments need and then grant them as needed. 
 
 
 
