@@ -25,7 +25,7 @@ permalink: /Chaos-Studio-Lab/Resources/ProTips
    
 ## Getting Access Denied errors when running Experiments?
 1. Double check the permissions for the Experiment.<br>
-In *Lab 1*, I demonstrate this exact scenario and how the Experiment will fail with an “Access Denied” error.  The experiment needed *Network Contributor* permissions to create the fault.  
+In **Lab 1**, I demonstrate this exact scenario and how the Experiment will fail with an “Access Denied” error.  The experiment needed *Network Contributor* permissions to create the fault.  
 
    Use [Lab 1]({{ site.baseurl }}/Labs/Lab%201%20NSG-Service-Bus.md) as an example to better understand what Roles/Permissions your Experiments need and then grant them as needed. 
 
