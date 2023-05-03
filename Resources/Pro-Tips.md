@@ -7,8 +7,6 @@ permalink: /Chaos-Studio-Lab/Resources/ProTips
 
 # Pro Tips
 ## Targets and Capabilities are not enumerating in the portal
-This issue has occured in the past that the have been fixes deployed for this, but if this is blocking you, here are some things you can try to workaround this issue.
-
 1. Select only one subscription and one resource group.
 
 2. Use the Resource Graph Explorer to view the Targets and Capabilities.  
@@ -18,7 +16,7 @@ This issue has occured in the past that the have been fixes deployed for this, b
 1. You can deploy using Bicep.
    [Click here]({{ site.baseurl }}/Lab%202%20Deploy%20Using%20Bicep.md)){:target="_blank"} to learn more about how to deploy using Bicep.
 
-## Experiecing failures or errors and the details are not very helpful?
+## Experiencing failures or errors and the details are not very helpful?
 1. Triple check your permissions
    [Click here]({{ site.baseurl }}/Permissions.md)){:target="_blank"} read up and learn how to check permissions.
 
