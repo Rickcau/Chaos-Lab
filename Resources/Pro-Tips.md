@@ -23,7 +23,7 @@ This issue has occured in the past that the have been fixes deployed for this, b
    [Click here]({{ site.baseurl }}/Lab%202%20Deploy%20Using%20Bicep.md)){:target="_blank"} read up and learn how to check permissions.
 
 2. Is the Chaos.Studio Provider enabled or did someone disable it?
-   [Click here]({{ site.baseurl }}/Lab%202%20Deploy%20Using%20Bicep.md)){:target="_blank"} to learn more about how to check the Chaos.Studio Provider
+   [Click here]({{ site.baseurl }}/ChaosProvider.md)){:target="_blank"} to learn more about how to check the Chaos.Studio Provider
 
 
 
