@@ -17,7 +17,7 @@ This issue has occured in the past that the have been fixes deployed for this, b
 ## How to deploy experiments if Azure Portal is not responsive?
 
 1. You can deploy using Bicep.
-   [Click here](https://portal.azure.com/#view/HubsExtension/ArgQueryBlade/){:target="_blank"} to learn more about how to deploy using Bicep.
+   [Click here]({{ site.baseurl }}/Labs/NSG-Service-Bus-Lab2.markdown)){:target="_blank"} to learn more about how to deploy using Bicep.
 **Note:** You can enumerate the Targets and Capabilities in the Azure Portal under the Chaos Studio blade, but if for any reason there are issues with the portal, this approach can be used.
 
 
